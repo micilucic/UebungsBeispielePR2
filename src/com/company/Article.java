@@ -37,7 +37,7 @@ public class Article {
 
     @Override
     public String toString() {
-        return "com.company.Article{" +
+        return "Article{" +
                 "name='" + name + '\'' +
                 ", number=" + number +
                 ", price=" + price +
