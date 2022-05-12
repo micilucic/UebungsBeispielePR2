@@ -103,15 +103,19 @@ public class Order {
         articles = biggerArray;
     }
 
-    public void removeArticle(int number) {
+   /* public void removeArticle(int number) {
         Article[] articles1 = new Article[articles.length - 1];
         int index = 0;
+       for (Article a : articles) {
+           if (number < )
+       }
+
         for (int i = 0; i < articles.length; i++) {
             if (i != number) {
                 articles1[index] = articles[i];
                 index++;
             }
         }
-    }
+    }*/
 }
 

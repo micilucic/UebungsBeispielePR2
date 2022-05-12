@@ -27,7 +27,5 @@ public class OrderApp {
 
         o1.addArticle(a5);
 
-        o1.removeArticle(2);
-        System.out.println(o1);
     }
 }
